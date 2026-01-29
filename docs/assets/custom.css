@@ -110,6 +110,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: clamp(0.8rem, 2.2vh, 1.6rem);
   margin-bottom: 2em;
   filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
 }
@@ -140,6 +141,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: clamp(0.8rem, 2.2vh, 1.6rem);
   margin-bottom: 2em;
   filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
 }
