@@ -104,8 +104,8 @@
 .reveal .slides section.end-slide::before {
   content: "";
   display: block;
-  width: clamp(320px, 34vw, 520px);
-  height: clamp(90px, 12vh, 160px);
+  width: clamp(360px, 38vw, 580px);
+  height: clamp(100px, 14vh, 180px);
   background-image: url('logo_IFS.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -135,8 +135,8 @@
 #title-slide::before {
   content: "";
   display: block;
-  width: clamp(320px, 34vw, 520px);
-  height: clamp(90px, 12vh, 160px);
+  width: clamp(360px, 38vw, 580px);
+  height: clamp(100px, 14vh, 180px);
   background-image: url('logo_IFS.png');
   background-size: contain;
   background-repeat: no-repeat;
