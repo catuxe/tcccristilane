@@ -1,0 +1,136 @@
+---
+title: "DESENVOLVIMENTO DE UM PROTÓTIPO DE SISTEMA PARA APOIO ÀS ATIVIDADES PSICOPEDAGÓGICAS NO INSTITUTO FEDERAL DE SERGIPE"
+subtitle: "Discente: Cristilane Gois de Souza<br>Orientador: Telmo Oliveira de Jesus<br>Coorientadora: Catuxe Varjão de Santana Oliveira"
+institute: "Instituto Federal de Sergipe"
+date: 2026-01-29
+date-format: "D [de] MMMM [de] YYYY"
+lang: pt-BR
+---
+
+## Contextualização do Estudo
+
+- Psicopedagogia nas instituições escolares
+- Educação inclusiva 
+- Atendimento psicopedagógico no Instituto Federal de Sergipe-IFS, Campus Lagarto
+- Atuação do Núcleo de Atendimento às Pessoas com Necessidades Específicas-NAPNE
+- Necessidade de organização das informações
+
+
+---
+
+## Problema Investigado
+
+- Registros psicopedagógicos realizados de forma manual
+- Informações dispersas
+- Dificuldade no acompanhamento da evolução dos alunos
+- Fragilidade na comunicação entre:
+  - Instituição
+  - Equipe multiprofissional
+  - Família
+
+
+---
+
+## Objetivo Geral
+
+- Desenvolver um protótipo de sistema para apoiar as atividades psicopedagógicas no IFS, contribuindo para a organização dos atendimentos, o acompanhamento dos estudantes e o fortalecimento da comunicação entre instituição, psicopedagogo e família.
+
+---
+
+
+## Objetivos Específicos
+
+- Levantar as necessidades do atendimento psicopedagógico institucional
+- Definir as funcionalidades do sistema de acordo com essas necessidades
+- Modelar o sistema por meio de diagramas de caso de uso, sequência e atividades.
+- Desenvolver um protótipo que auxilie no registro e acompanhamento dos atendimentos psicopedagógicos.
+- Contribuir para a organização das informações e a comunicação com os pais ou responsáveis.
+
+--- 
+
+## Metodologia
+::: {.slide-scroll}
+- Natureza da pesquisa: Aplicada
+- Abordagem: Qualitativa
+- Método: Estudo de Caso
+- Contexto de aplicação:
+  - Instituto Federal de Sergipe – IFS, Campus Lagarto
+  - Núcleo de Atendimento às Pessoas com Necessidades Específicas (NAPNE)
+- Foco:
+  - Atendimento psicopedagógico institucional
+  - Organização dos fluxos de trabalho
+  - Sistematização das informações dos alunos
+:::
+
+--- 
+
+## Coleta de Dados
+
+- Questionário aplicado
+- Reuniões com a psicopedagoga do NAPNE
+- Compreensão de:
+  - Rotinas de atendimento
+  - Fluxos de trabalho
+  - Demandas institucionais
+
+--- 
+
+## Levantamento de Requisitos
+
+- Requisitos Funcionais
+- Requisitos Não Funcionais
+- Necessidades identificadas no contexto institucional
+- Base para o desenvolvimento do sistema
+
+
+--- 
+
+## Requisitos Funcionais
+::: {.slide-scroll}
+| Código | Requisitos Funcionais | Descrição |
+|-------------|-------------|-------------|
+| RF01      | Cadastrar aluno     | O sistema deve permitir o cadastro de alunos, registrando suas informações pessoais e educacionais.|
+| RF02      | Visualizar dados do aluno      | O sistema deve permitir a visualização dos dados completos dos alunos cadastrados.|
+| RF04      | Visualizar dados do aluno      | O sistema deve permitir a visualização dos dados completos dos alunos cadastrados.|
+| RF05      | Visualizar dados do aluno      | O sistema deve permitir a visualização dos dados completos dos alunos cadastrados.|
+| RF06      | Visualizar dados do aluno      | O sistema deve permitir a visualização dos dados completos dos alunos cadastrados.|
+
+:::
+
+---
+
+## Testes scroll
+
+::: {.slide-scroll}
+
+::: {.highlight-box}
+**Transformação decisiva**
+
+- Problema real vira **hipótese testável de valor**
+- Definir claramente
+  - Quem sofre o problema
+  - Contexto de uso
+  - Alternativas existentes
+  - Restrições (técnicas e regulatórias)
+  - Restrições (técnicas e regulatórias)
+  - Restrições (técnicas e regulatórias)
+  - Restrições (técnicas e regulatórias)
+  - Restrições (técnicas e regulatórias)
+  - Restrições (técnicas e regulatórias)
+  - Restrições (técnicas e regulatórias)
+
+:::
+
+:::
+
+---
+
+## Figura
+
+::: {.slide-scroll}
+
+::: {style="text-align: right; padding-top: 10px; padding-right: 50px;"}
+![](Figuras/ref_jornada_empreendedor/pagina_01.png){width="100%"}
+:::
+:::
+
