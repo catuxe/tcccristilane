@@ -14,6 +14,49 @@
   --ufs-verde: var(--ifs-verde);
   --ufs-cinza-escuro: var(--ifs-cinza-escuro);
   --ufs-cinza-claro: var(--ifs-cinza-claro);
+
+  /* Ajustes de layout */
+  --ifs-footer-height: 32px;
+}
+
+/* Tipografia/legibilidade base */
+.reveal {
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.reveal .slides {
+  text-rendering: optimizeLegibility;
+}
+
+.reveal .slides section:not(#title-slide):not(.end-slide) {
+  /* Evita que o conteúdo “entre” no rodapé fixo */
+  padding-bottom: calc(var(--ifs-footer-height) + 14px) !important;
+}
+
+.reveal h2 {
+  color: var(--ifs-verde);
+}
+
+.reveal ul,
+.reveal ol {
+  margin-top: 0.35em;
+}
+
+.reveal li {
+  margin: 0.18em 0;
+  line-height: 1.25;
+}
+
+/* Links mais visíveis */
+.reveal a {
+  color: var(--ifs-verde);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+#title-slide a,
+.reveal .slides section.end-slide a {
+  color: #ffffff !important;
 }
 
 .reveal .slides section.title-slide {
@@ -258,7 +301,7 @@ section.title-slide .date,
 }
 
 .diagram-scroll {
-  max-height: 600px;
+  max-height: 70vh;
   overflow-y: auto;
   overflow-x: hidden;
   border: 2px solid var(--ufs-verde);
@@ -269,10 +312,17 @@ section.title-slide .date,
 }
 
 .slide-scroll {
-  max-height: 600px;
+  max-height: 70vh;
   overflow-y: auto;
   overflow-x: hidden;
   padding-right: 10px;
+}
+
+/* Imagens dentro de áreas scroll */
+.diagram-scroll img,
+.slide-scroll img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Tabelas (principalmente nas áreas scroll) */
@@ -316,6 +366,25 @@ section.title-slide .date,
   background: var(--ifs-vermelho);
 }
 
+.slide-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.slide-scroll::-webkit-scrollbar-track {
+  background: var(--ifs-cinza-claro);
+  border-radius: 5px;
+}
+
+.slide-scroll::-webkit-scrollbar-thumb {
+  background: var(--ifs-verde);
+  border-radius: 5px;
+  border: 2px solid var(--ifs-cinza-claro);
+}
+
+.slide-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--ifs-vermelho);
+}
+
 /* Logo positioning and styling */
 .reveal .slide-logo {
   display: none !important;
@@ -342,7 +411,11 @@ section.title-slide .date,
   gap: 10px !important;
   z-index: 1000 !important;
   height: auto !important;
-  min-height: 28px !important;
+  min-height: var(--ifs-footer-height) !important;
+}
+
+.reveal .footer p {
+  margin: 0 !important;
 }
 
 .reveal .footer::before {
