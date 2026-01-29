@@ -245,14 +245,6 @@ ASTAH. Astah UML. Versão estudante. [s.l.]: Change Vision, s.d. Disponível em:
 
 ---
 
-## Obrigada!
-title: "DESENVOLVIMENTO DE UM PROTÓTIPO DE SISTEMA PARA APOIO ÀS ATIVIDADES PSICOPEDAGÓGICAS NO INSTITUTO FEDERAL DE SERGIPE"
+## Obrigada! {.end-slide}
 
-subtitle: "Discente: Cristilane Gois de Souza<br>Orientador: Telmo Oliveira de Jesus<br>Coorientadora: Catuxe Varjão de Santana Oliveira"
-
-institute: "Instituto Federal de Sergipe"
-date: 2026-01-29
-date-format: "D [de] MMMM [de] YYYY"
-lang: pt-BR
-title-slide-attributes:
-  class: title-slide
+<span class="small-text">Discente: Cristilane Gois de Souza<br>Orientador: Telmo Oliveira de Jesus<br>Coorientadora: Catuxe Varjão de Santana Oliveira</span>
