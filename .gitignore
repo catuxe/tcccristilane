@@ -9,6 +9,11 @@ __pycache__/
 # Old local output (we publish from /docs)
 apresentacao/_site/
 
+# Local render output (we publish from /docs)
+apresentacao/apresentacao.html
+apresentacao/apresentacao_files/
+apresentacao/.gitignore
+
 # OS / editor
 .DS_Store
 Thumbs.db

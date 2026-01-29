@@ -91,37 +91,19 @@ lang: pt-BR
 |-------------|-------------|-------------|
 | RF01      | Cadastrar aluno     | O sistema deve permitir o cadastro de alunos, registrando suas informações pessoais e educacionais.|
 | RF02      | Visualizar dados do aluno      | O sistema deve permitir a visualização dos dados completos dos alunos cadastrados.|
-| RF04      | Visualizar dados do aluno      | O sistema deve permitir a visualização dos dados completos dos alunos cadastrados.|
+| RF05      | Listar e filtrar alunos      | O sistema deve permitir a listagem de alunos cadastrados, com aplicação de filtros para facilitar a busca. |
 | RF05      | Visualizar dados do aluno      | O sistema deve permitir a visualização dos dados completos dos alunos cadastrados.|
-| RF06      | Visualizar dados do aluno      | O sistema deve permitir a visualização dos dados completos dos alunos cadastrados.|
+| RF12      | Gerar documentos e encaminhamentos      | O sistema deve permitir a geração de relatórios, encaminhamentos e termos relacionados ao atendimento do aluno.|
+| RF14      | Registrar anamnese     | O sistema deve permitir o registro da anamnese do aluno e do responsável. |
+| RF16     | Agendar atendimento      | O sistema deve permitir o agendamento de atendimentos.|
+| RF22     | Notificar equipe multiprofissional      | O sistema deve permitir o envio de notificações à equipe multiprofissional sobre o andamento e a conduta do aluno.|
+| RF25      | Registrar devolutivas clínicas     | O sistema deve permitir o registro de devolutivas clínicas destinadas às famílias e à equipe multiprofissional. |
+| RF28     | Agendar atendimento      | O sistema deve permitir construir PEI em parceria com a equipe Multiprofissional.|
 
 :::
 
 ---
 
-## Testes scroll
-
-::: {.slide-scroll}
-
-::: {.highlight-box}
-**Transformação decisiva**
-
-- Problema real vira **hipótese testável de valor**
-- Definir claramente
-  - Quem sofre o problema
-  - Contexto de uso
-  - Alternativas existentes
-  - Restrições (técnicas e regulatórias)
-  - Restrições (técnicas e regulatórias)
-  - Restrições (técnicas e regulatórias)
-  - Restrições (técnicas e regulatórias)
-  - Restrições (técnicas e regulatórias)
-  - Restrições (técnicas e regulatórias)
-  - Restrições (técnicas e regulatórias)
-
-:::
-
-:::
 
 ---
 
