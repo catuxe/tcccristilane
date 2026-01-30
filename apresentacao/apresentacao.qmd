@@ -2,7 +2,7 @@
 title: "DESENVOLVIMENTO DE UM PROTÓTIPO DE SISTEMA PARA APOIO ÀS ATIVIDADES PSICOPEDAGÓGICAS NO INSTITUTO FEDERAL DE SERGIPE"
 subtitle: "Discente: Cristilane Gois de Souza<br>Orientador: Telmo Oliveira de Jesus<br>Coorientadora: Catuxe Varjão de Santana Oliveira"
 institute: "Instituto Federal de Sergipe"
-date: 2026-01-29
+date: 2026-01-30
 date-format: "D [de] MMMM [de] YYYY"
 lang: pt-BR
 title-slide-attributes:
@@ -112,8 +112,8 @@ title-slide-attributes:
 | RF14      | Registrar anamnese     | O sistema deve permitir o registro da anamnese do aluno e do responsável. |
 | RF16     | Agendar atendimento      | O sistema deve permitir o agendamento de atendimentos.|
 | RF22     | Notificar equipe multiprofissional      | O sistema deve permitir o envio de notificações à equipe multiprofissional sobre o andamento e a conduta do aluno.|
-| RF25      | Registrar devolutivas clínicas     | O sistema deve permitir o registro de devolutivas clínicas destinadas às famílias e à equipe multiprofissional. |
-| RF28     | Agendar atendimento      | O sistema deve permitir construir PEI em parceria com a equipe Multiprofissional.|
+| RF25      | Registrar devolutivas     | O sistema deve permitir o registro de devolutivas clínicas destinadas às famílias e à equipe multiprofissional. |
+| RF28     | Construir PEI      | O sistema deve permitir construir PEI em parceria com a equipe Multiprofissional.|
 
 :::
 
@@ -151,7 +151,7 @@ title-slide-attributes:
 ## Diagrama de Caso de Uso
 
 ::: {.diagram-scroll}
-![](Figuras/diagrama-caso-de-uso.jpg){width="100%"}
+[![](Figuras/diagrama-caso-de-uso.jpg){width="150%"}](Figuras/diagrama-caso-de-uso.jpg){target="_blank" data-preview-link="false"}
 :::
 
 ---
@@ -159,7 +159,7 @@ title-slide-attributes:
 ## Diagrama de Sequência - Gerenciar Prontuário do Aluno
 
 ::: {.diagram-scroll}
-![](Figuras/diagrama-sequencia-prontuario.png){width="100%"}
+[![](Figuras/diagrama-sequencia-prontuario.png){width="100%"}](Figuras/diagrama-sequencia-prontuario.png){target="_blank" data-preview-link="false"}
 :::
 
 ---
@@ -167,7 +167,7 @@ title-slide-attributes:
 ## Diagrama de Sequência - Gerar Relatório
 
 ::: {.diagram-scroll}
-![](Figuras/diagrama-sequencia-relatorio.png){width="100%"}
+[![](Figuras/diagrama-sequencia-relatorio.png){width="100%"}](Figuras/diagrama-sequencia-relatorio.png){target="_blank" data-preview-link="false"}
 :::
 
 ---
@@ -175,7 +175,7 @@ title-slide-attributes:
 ## Diagrama de Atividade
 
 ::: {.diagram-scroll}
-![](Figuras/diagrama-atividade-prontuario.jpg){width="100%"}
+[![](Figuras/diagrama-atividade-prontuario.jpg){width="100%"}](Figuras/diagrama-atividade-prontuario.jpg){target="_blank" data-preview-link="false"}
 :::
 
 ---

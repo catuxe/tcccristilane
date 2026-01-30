@@ -303,12 +303,12 @@ section.title-slide .date,
 }
 
 .diagram-scroll {
-  max-height: 70vh;
+  max-height: 80vh;
   overflow-y: auto;
   overflow-x: hidden;
   border: 2px solid var(--ufs-verde);
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
